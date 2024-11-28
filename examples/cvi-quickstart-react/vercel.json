@@ -4,5 +4,11 @@
   "framework": "vite",
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
-  ]
+  ],
+  "functions": {
+    "api/webhooks/*.ts": {
+      "memory": 1024,
+      "maxDuration": 10
+    }
+  }
 } 
