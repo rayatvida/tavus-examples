@@ -4,7 +4,7 @@ export const WelcomeScreen = ({ onStart, loading }: { onStart: () => void, loadi
   return (
     <div className='flex flex-col items-center justify-center h-screen gap-10 p-10'>
       <h1 className='text-4xl'>
-        Welcome to the Vida Virtual Clinic
+        Welcome to the Vida Clinic
       </h1>
       <Button onClick={onStart}>{loading ? 'Loading...' : 'Start Conversation'}</Button>
     </div>
