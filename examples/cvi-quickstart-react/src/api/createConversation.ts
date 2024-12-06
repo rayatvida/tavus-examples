@@ -13,7 +13,8 @@ export const createConversation = async (): Promise<IConversation> => {
         //persona_id: 'pa4e94c58c7a', // Lucy Persona
         //persona_id: 'p9a95912', // Stock Demo Persona
         persona_id: 'p06bc2183687',
-        callback_url: 'https://your-domain.vercel.app/api/webhooks/tavus'
+        //callback_url: 'https://your-domain.vercel.app/api/webhooks/tavus'
+        callback_url: '	https://webhook.site/daf92f07-b001-4602-bbcf-d43aa134b816'
       }),
     });
 
